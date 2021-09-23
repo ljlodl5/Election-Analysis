@@ -39,8 +39,6 @@ for candidate_name in candidate_votes:
     votes = candidate_votes[candidate_name]
     # 3. Calculate the percentage of votes.
     vote_percentage = float(votes) / float(total_votes) * 100
-    # 4. Print the candidate name and percentage of votes.
-    print(f"{candidate_name}: received {vote_percentage}% of the vote.")
-
+    print(f"{candidate_name}: received {vote_percentage:.1f}% of the vote.")
 # 3. Print the total votes.
 print(candidate_votes)
