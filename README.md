@@ -36,14 +36,15 @@ Utilizing a sample dataset of congressional election results from three Colorado
    * **Winning Candidate total votes:**  272,892 
    * **Winning Candidate total percentage:** 73.8% 
 
+
 ### ![Election-Analysis Image](https://github.com/ljlodl5/Election-Analysis/blob/main/Analysis/Election%20Analysis-terminal%20.png)
 
 
 ## **Election-Audit Summary**
 ### **Business Proposal** 
 The script created for the election commission audit is reusable, scalable and agnostic. In other words, the same script can be run irrespective of the ballot ids, candidates, and counties represented within the current import data structure. 
-The script can accomodate automatic consumption and output with modifications (see #1 below). In addition, should an election commission want to expand the output to see additional data points (ex. ballot type, political affiliation etc.) or compare Colorado with national level details---the core lists, dictionaries, and read/write structures can remain with modifications to the script to include the new input/output elements. 
-It is important to note that with modifications the script can also accomodate additional risk checks to ensure ballots are not counted more than once. (see #2 below)
+The script can accomodate automatic consumption and output with modifications (see #1 below). In addition, should an election commission want to expand the output to see additional data points (ex. ballot type, political affiliation, or compare Colorado with national level details etc.)--the core lists, dictionaries, and read/write structure can remain-- while then modifying the script to include the new input/output elements. 
+It is important to note that with modifications the script can also accomodate additional data risk checks (ex. to ensure ballots are not counted more than once -see #2 below)
 
 
 ### **Modifications: Increased scalability and automation**
@@ -55,7 +56,8 @@ It is important to note that with modifications the script can also accomodate a
 
 2) This dataset assumes each row is representative of 1 vote. There should be statements validating the ballot ids are unique and not 'repeat-counted'. Statements prior to this segment should be considered that ensures uniqueness of the ballot ids. 
     for row in reader:
-        total_votes = total_votes + 1
+        
+	total_votes = total_votes + 1
 
 3) The core structure of the script can remain in place for congressional elections within the state, but also be expanded to include national* input/outputs as well. *It is important to note that performance will need to be evaluated and refactoring opportunities considered for national consumption( ~350M ballots) 
 
