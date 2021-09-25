@@ -13,17 +13,17 @@ Utilizing a sample dataset of congressional election results from three Colorado
 
 ### **County Results**
    * **Number of votes and the percentage of total votes for each county in the precinct:**
-	*Jefferson: 10.5% (38,855)
-	*Denver: 82.8% (306,055)
-	*Arapahoe: 6.7% (24,801)
+1.Jefferson: 10.5% (38,855)
+2.Denver: 82.8% (306,055)
+3.Arapahoe: 6.7% (24,801)
 
    * **County with the largest number of votes:** Denver
 
 ### **Candidate Results**
    * **Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.**
-	*Charles Casper Stockham: 23.0% (85,213)
-	*Diana DeGette: 73.8% (272,892)
-	*Raymon Anthony Doane: 3.1% (11,606)
+1.Charles Casper Stockham: 23.0% (85,213)
+2.Diana DeGette: 73.8% (272,892)
+3.Raymon Anthony Doane: 3.1% (11,606)
 
    * **Election Winner:** Diana DeGette
    * **Winning Candidate total votes:**  272,892
@@ -52,5 +52,5 @@ It is important to note that with modifications the script can also accomodate a
 
 #### ![Election Summary: Script Modification Suggestions](https://github.com/ljlodl5/Election-Analysis/blob/main/Resources/Election-Analysis%20Script.png)
 
-*[Link to Resource Folder](https://github.com/ljlodl5/Election-Analysis/tree/main/Resources)
-*[Link to Analysis Folder](https://github.com/ljlodl5/Election-Analysis/tree/main/Analysis)
+1.[Link to Resource Folder](https://github.com/ljlodl5/Election-Analysis/tree/main/Resources)
+2.[Link to Analysis Folder](https://github.com/ljlodl5/Election-Analysis/tree/main/Analysis)
