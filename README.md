@@ -28,7 +28,7 @@ Utilizing a sample dataset of congressional election results from three Colorado
    * **Winning Candidate total votes:**  272,892
    * **Winning Candidate total percentage:** 73.8%
 
-### **Text file**
+### **Support audit file**
 
 
 ## **Election-Audit Summary**
