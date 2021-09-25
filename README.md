@@ -28,7 +28,7 @@ Utilizing a sample dataset of congressional election results from three Colorado
    * **Winning Candidate total votes:**  272,892
    * **Winning Candidate total percentage:** 73.8%
 
-### **Support audit file**
+### ![Election-Analysis Image](https://github.com/ljlodl5/Election-Analysis/blob/main/Analysis/election_analysis.txt)
 
 
 ## **Election-Audit Summary**
@@ -50,5 +50,5 @@ It is important to note that with modifications the script can also accomodate a
         total_votes = total_votes + 1
 3) The core structure of the script can remain in place for congressional elections within the state, but also be expanded to include national* input/outputs as well. *It is important to note that performance will need to be evaluated and refactoring opportunities considered for national consumption( ~350M ballots) 
 
-#### Script Modification Proposals (2) -see attached
+#### ![Election Summary: Script Modification Suggestions](https://github.com/ljlodl5/Election-Analysis/blob/main/Resources/Python%20Challenge%20Election-Analysis.pdf)
 
