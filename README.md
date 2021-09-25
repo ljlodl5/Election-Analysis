@@ -1,7 +1,7 @@
 # Python Challenge: Election-Analysis
 
 ## **Overview of Election Audit**
-Utilizing a sample dataset of congressional election results from three Colorado counties (i.e Arapahoe, Denver, Jefferson) the goal of this assignment is to fulfill an audit on behalf of the election commission. Expections of the audit include, providing the number of total ballots cast, statistics surrounding the winning congressional candidate, and details regarding voter representation among the counties represented in this dataset. 
+Utilizing a sample dataset of congressional election results from three Colorado counties (i.e Arapahoe, Denver, Jefferson) the goal of this assignment is to fulfill an audit on behalf of the election commission. Expections of the audit include: Providing the number of total ballots cast, statistics surrounding the winning congressional candidate, and details regarding voter representation among the counties represented in this dataset. 
 
 
 
@@ -28,7 +28,7 @@ Utilizing a sample dataset of congressional election results from three Colorado
    * **Winning Candidate total votes:**  272,892
    * **Winning Candidate total percentage:** 73.8%
 
-### ![Election-Analysis Image](https://github.com/ljlodl5/Election-Analysis/blob/main/Analysis/election_analysis.txt)
+### ![Election-Analysis Image](https://github.com/ljlodl5/Election-Analysis/blob/main/Analysis/Election%20Analysis-terminal%20.png)
 
 
 ## **Election-Audit Summary**
@@ -41,8 +41,8 @@ It is important to note that with modifications the script can also accomodate a
 
 ### **Modifications: Increased scalability and automation
 1) The following output read/write strings to include version control in order to prevent read/write overlap and enable input/output automation.
-#### ex. file_to_load = os.path.join("Resources", "election_results.csv")
-#### ex. file_to_save = os.path.join("analysis", "election_analysis.txt") 
+	file_to_load = os.path.join("Resources", "election_results.csv")
+	file_to_save = os.path.join("analysis", "election_analysis.txt")
 
 2) This dataset assumes each row is representative of 1 vote. There should be statements validating the ballot ids are unique and not 'repeat-counted'.
 #### ex. statements prior to this segment should be considered that ensures uniqueness of the ballot ids. 
@@ -50,5 +50,5 @@ It is important to note that with modifications the script can also accomodate a
         total_votes = total_votes + 1
 3) The core structure of the script can remain in place for congressional elections within the state, but also be expanded to include national* input/outputs as well. *It is important to note that performance will need to be evaluated and refactoring opportunities considered for national consumption( ~350M ballots) 
 
-#### ![Election Summary: Script Modification Suggestions](https://github.com/ljlodl5/Election-Analysis/blob/main/Resources/Python%20Challenge%20Election-Analysis.pdf)
+#### ![Election Summary: Script Modification Suggestions]()
 
