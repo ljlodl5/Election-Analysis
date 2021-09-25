@@ -36,8 +36,8 @@ Utilizing a sample dataset of congressional election results from three Colorado
    * **Winning Candidate total votes:**  272,892 
    * **Winning Candidate total percentage:** 73.8% 
 
-
-### ![Election-Analysis Image](https://github.com/ljlodl5/Election-Analysis/blob/main/Analysis/Election%20Analysis-terminal%20.png)
+### Election-Analysis Terminal Image
+#### ![Election-Analysis Image](https://github.com/ljlodl5/Election-Analysis/blob/main/Analysis/Election%20Analysis-terminal%20.png)
 
 
 ## **Election-Audit Summary**
@@ -55,11 +55,14 @@ It is important to note that with modifications the script can also accomodate a
 	file_to_save = os.path.join("analysis", "election_analysis.txt")*
 
 2) This dataset assumes each row is representative of 1 vote. There should be statements validating the ballot ids are unique and not 'repeat-counted'. Statements prior to this segment should be considered that ensures uniqueness of the ballot ids. 
-    for row in reader:
+    
+	for row in reader:
         
-	total_votes = total_votes + 1
+		total_votes = total_votes + 1
 
 3) The core structure of the script can remain in place for congressional elections within the state, but also be expanded to include national* input/outputs as well. *It is important to note that performance will need to be evaluated and refactoring opportunities considered for national consumption( ~350M ballots) 
+
+### Election-Analysis: Script Modification
 
 #### ![Election Summary: Script Modification Suggestions](https://github.com/ljlodl5/Election-Analysis/blob/main/Resources/Election-Analysis%20Script.png)
 
