@@ -9,20 +9,20 @@ Utilizing a sample dataset of congressional election results from three Colorado
 
 ### **Voter Turnout**
 
-   * **Congressional Election: Total Votes = ** 369,711 
+   * **Congressional Election: Total Votes** =369,711 
 
 ### **County Results**
    * **Number of votes and the percentage of total votes for each county in the precinct:**
-	Jefferson: 10.5% (38,855)
-	Denver: 82.8% (306,055)
-	Arapahoe: 6.7% (24,801)
+	####Jefferson: 10.5% (38,855)
+	####Denver: 82.8% (306,055)
+	####Arapahoe: 6.7% (24,801)
    * **County with the largest number of votes:** Denver
 
 ### **Candidate Results**
    * **Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.**
-	Charles Casper Stockham: 23.0% (85,213)
-	Diana DeGette: 73.8% (272,892)
-	Raymon Anthony Doane: 3.1% (11,606)
+	####Charles Casper Stockham: 23.0% (85,213)
+	####Diana DeGette: 73.8% (272,892)
+	####Raymon Anthony Doane: 3.1% (11,606)
 
    * **Election Winner:** Diana DeGette
    * **Winning Candidate total votes:**  272,892
@@ -39,18 +39,17 @@ Should an election commission want to expand the output to see additional data p
 It is important to note that with modifications the script can also accomodate additional risk checks to ensure ballots are not counted more than once. (see #2 below)
 
 
-### **Modifications: Increased scalability and automation
+### **Modifications: Increased scalability and automation**
 1) The following output read/write strings to include version control in order to prevent read/write overlap and enable input/output automation.
 	file_to_load = os.path.join("Resources", "election_results.csv")
 	file_to_save = os.path.join("analysis", "election_analysis.txt")
 
-2) This dataset assumes each row is representative of 1 vote. There should be statements validating the ballot ids are unique and not 'repeat-counted'.
-#### ex. statements prior to this segment should be considered that ensures uniqueness of the ballot ids. 
+2) This dataset assumes each row is representative of 1 vote. There should be statements validating the ballot ids are unique and not 'repeat-counted'. Statements prior to this segment should be considered that ensures uniqueness of the ballot ids. 
     for row in reader:
         total_votes = total_votes + 1
 3) The core structure of the script can remain in place for congressional elections within the state, but also be expanded to include national* input/outputs as well. *It is important to note that performance will need to be evaluated and refactoring opportunities considered for national consumption( ~350M ballots) 
 
 #### ![Election Summary: Script Modification Suggestions](https://github.com/ljlodl5/Election-Analysis/blob/main/Resources/Election-Analysis%20Script.png)
 
-[Resource Folder](https://github.com/ljlodl5/Election-Analysis/tree/main/Resources)
-[Analysis Folder](https://github.com/ljlodl5/Election-Analysis/tree/main/Analysis)
+#####[Link to Resource Folder](https://github.com/ljlodl5/Election-Analysis/tree/main/Resources)
+#####[Link to Analysis Folder](https://github.com/ljlodl5/Election-Analysis/tree/main/Analysis)
