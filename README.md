@@ -9,20 +9,20 @@ Utilizing a sample dataset of congressional election results from three Colorado
 
 ### **Voter Turnout**
 
-   * **Total Votes casted in this congressional election:** 369,711 
+   * **Congressional Election: Total Votes = ** 369,711 
 
 ### **County Results**
    * **Number of votes and the percentage of total votes for each county in the precinct:**
-		Jefferson: 10.5% (38,855)
-		Denver: 82.8% (306,055)
-		Arapahoe: 6.7% (24,801)
+	Jefferson: 10.5% (38,855)
+	Denver: 82.8% (306,055)
+	Arapahoe: 6.7% (24,801)
    * **County with the largest number of votes:** Denver
 
 ### **Candidate Results**
    * **Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.**
-		Charles Casper Stockham: 23.0% (85,213)
-		Diana DeGette: 73.8% (272,892)
-		Raymon Anthony Doane: 3.1% (11,606)
+	Charles Casper Stockham: 23.0% (85,213)
+	Diana DeGette: 73.8% (272,892)
+	Raymon Anthony Doane: 3.1% (11,606)
 
    * **Election Winner:** Diana DeGette
    * **Winning Candidate total votes:**  272,892
@@ -50,5 +50,7 @@ It is important to note that with modifications the script can also accomodate a
         total_votes = total_votes + 1
 3) The core structure of the script can remain in place for congressional elections within the state, but also be expanded to include national* input/outputs as well. *It is important to note that performance will need to be evaluated and refactoring opportunities considered for national consumption( ~350M ballots) 
 
-#### ![Election Summary: Script Modification Suggestions]()
+#### ![Election Summary: Script Modification Suggestions](https://github.com/ljlodl5/Election-Analysis/blob/main/Resources/Election-Analysis%20Script.png)
 
+[Resource Folder](https://github.com/ljlodl5/Election-Analysis/tree/main/Resources)
+[Analysis Folder](https://github.com/ljlodl5/Election-Analysis/tree/main/Analysis)
