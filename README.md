@@ -1,8 +1,7 @@
 # Python Challenge: Election-Analysis
 
 ## **Overview of Election Audit**
-Utilizing a sample dataset of congressional election results from three Colorado counties (Arapahoe, Denver and Jefferson) the goal of this assignment is to fulfill an audit on behalf of the election commission.  
-Expections of the audit include, providing the number of total ballots cast, statistics surrounding the winning congressional candidate, and details regarding voter representation among the counties represented in this dataset. 
+Utilizing a sample dataset of congressional election results from three Colorado counties (i.e Arapahoe, Denver, Jefferson) the goal of this assignment is to fulfill an audit on behalf of the election commission. Expections of the audit include, providing the number of total ballots cast, statistics surrounding the winning congressional candidate, and details regarding voter representation among the counties represented in this dataset. 
 
 
 
@@ -10,24 +9,24 @@ Expections of the audit include, providing the number of total ballots cast, sta
 
 ### **Voter Turnout**
 
-   "*" **Total Votes casted in this congressional election:** 369,711 
+   * **Total Votes casted in this congressional election:** 369,711 
 
 ### **County Results**
-   "*" **Number of votes and the percentage of total votes for each county in the precinct:**
+   * **Number of votes and the percentage of total votes for each county in the precinct:**
 		Jefferson: 10.5% (38,855)
 		Denver: 82.8% (306,055)
 		Arapahoe: 6.7% (24,801)
-   "*" **County with the largest number of votes:** Denver
+   * **County with the largest number of votes:** Denver
 
 ### **Candidate Results**
-   "*" **Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.**
+   * **Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.**
 		Charles Casper Stockham: 23.0% (85,213)
 		Diana DeGette: 73.8% (272,892)
 		Raymon Anthony Doane: 3.1% (11,606)
 
-   "*" **Election Winner:** Diana DeGette
-   "*" **Winning Candidate total votes:**  272,892
-   "*" **Winning Candidate total percentage:** 73.8%
+   * **Election Winner:** Diana DeGette
+   * **Winning Candidate total votes:**  272,892
+   * **Winning Candidate total percentage:** 73.8%
 
 ### **Text file**
 
